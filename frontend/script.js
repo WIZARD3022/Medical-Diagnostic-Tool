@@ -39,27 +39,26 @@ async function runPython() {
             outputDiv.innerHTML = `<p>Error: ${response.status} ${response.statusText}: ${errText}</p>`;
             return;
         }
-
         const data = await response.json();
         console.log("Response from backend:", data);
-        
         if (data.message) {
             outputDiv.innerHTML = `<p>${data.message}</p>`;
-            // const loader = document.getElementById("loader");
-            // loader.style.display = "none";
         } else {
             outputDiv.innerHTML = `<p>Unexpected response format from backend.</p>`;
         }
-
         if (data.segmentationImage && imageType === "mri") {
-            outputDiv.innerHTML += `<img src="${data.segmentationImage}" alt="Segmentation Mask" style="max-width:300px;">`;
+            if (data.message.toLowerCase().includes("not a mri")){
+                console.log(data.message.toLowerCase().includes("not a mri"))
+            }
+            else {
+                outputDiv.innerHTML += `<img src="${data.segmentationImage}" alt="Segmentation Mask" style="max-width:300px;">`;
+            }
         }
     } catch (error) {
         console.error("Fetch error:", error);
         outputDiv.innerHTML = `<p>Fetch error: ${error.message}</p>`;
     }
 }
-
 const navLinks = document.querySelector('.nav-links');
 
 window.runPython = runPython;
