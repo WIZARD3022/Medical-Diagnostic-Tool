@@ -1,6 +1,3 @@
-Perfect. Here's the updated **README.md** with your exact setup instructions included in the **"How to Download and Run the Project"** section:
-
----
 
 # 🧠 Medical Diagnostic Tool  
 **Team: ग़लती से Developer**  
