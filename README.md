@@ -59,7 +59,7 @@ cd Medical-Diagnostic-Tool
 
 Download the model file from the link below:
 
-🔗 [Download Model from MEGA](https://mega.nz/file/AicXQJwK#M02O6qehe7-ojtYO6KIg3Kngi25zjh2IfJmXg8kDcKU)
+🔗 [Download Model from MEGA](https://mega.nz/file/N6ExzRjJ#d0C0GdHaQYc-gG58vs_ts_J-G_Yu4WP2wdaZUx6C7cM)
 
 - After downloading, place the model file in:  
   ```bash
