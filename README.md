@@ -87,15 +87,6 @@ Just open the `frontend/index.html` file in any modern browser.
 
 ---
 
-## 👨‍💻 Team ग़लती से Developer
-
-- **Vishal Kumar Upadhyay** (Team Leader)  
-- **Vinit Sheetal**  
-- **Nikshey Yadav**  
-- **Piyush Kumar**
-
----
-
 ## 🌱 Future Scope
 
 - Add more disease categories
@@ -110,5 +101,3 @@ Just open the `frontend/index.html` file in any modern browser.
 This project is released under the [MIT License](LICENSE).
 
 ---
-
-Let me know if you want me to make a Hindi version, add demo screenshots, or embed the MEGA download directly in the frontend.
